@@ -29,7 +29,7 @@ A compact, energy-efficient home NAS built on Raspberry Pi 5, running Pi OS Lite
 - Changed boot order: NVMe → USB → SD via `raspi-config`  
 - Upgraded OS from Bookworm to Trixie
   - [Upgrade guide](https://forums.raspberrypi.com/viewtopic.php?t=389477)
-  - Note: the 'rpd-wayland-all+ rpd-x-all+' part of the 'sudo apt full-upgrade...' command isn't needed in a headless setup
+  - Note: the `rpd-wayland-all+ rpd-x-all+` part of the `sudo apt full-upgrade...` command isn't needed in a headless setup
 
 ---
 
