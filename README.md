@@ -126,7 +126,7 @@ NAS is fully operational with:
 - Make sure IPv6 doesn't bypass VPN setup
 
 - Permissions in /home/<user\> are restrictive by default, so storing media files in another location is useful to allow minidlna to stream them
-- It's also not a bad idea to have your shared folder in a differnt location than /home for security reasons
+- It's also not a bad idea to have your shared folder in a different location than /home for security reasons
 
 - Gemini sometimes suggests insecure defaults — always double-check
 
