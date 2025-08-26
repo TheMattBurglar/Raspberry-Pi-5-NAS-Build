@@ -9,7 +9,7 @@ A compact, energy-efficient home NAS built on Raspberry Pi 5, running Pi OS Lite
 - **Raspberry Pi 5**  
 - **Active Cooler for Raspberry Pi 5 (H505 or similar)**
 - **Geekworm X1011 NVMe board**  
-- **Geekwrom X1011-C1 PCIe Metal Case**
+- **Geekworm X1011-C1 PCIe Metal Case**
 - **CanaKit 45W PD Power Supply (might need more headroom than the standard 27W PSU if I fully populate the X1011 with 4 NVMe drives)**
 - **Ediloca EN870 1TB NVMe SSD**  
 - **Ethernet connection (via switch)**  
@@ -19,7 +19,8 @@ A compact, energy-efficient home NAS built on Raspberry Pi 5, running Pi OS Lite
 
 ## 🧱 OS & Boot Setup
 
-- Imaged Pi OS Bookworm to NVMe using Raspberry Pi Imager  
+- Imaged Pi OS Bookworm to NVMe using Raspberry Pi Imager and a USB to M.2 NVMe Drive Enclosure
+  - Note: NVMe SSDs are far more reliable than SD cards.  It may be enticing to use an SD card for the OS, and then NVMe SSDs just for storage, but trust me, it's better to not use SD cards at all.  When the OS drive starts to get corrupted (and SD cards do that a lot), they spread that corruption around to the other drives.  This setup has more than enough slots for NVMe drives.  Use one as an OS drive, if you want modularity.
 - Changed default username and hostname  
 - Enabled SSH using public-key authentication only
 - Assembled hardware, installed NVMe into Pi 5 and booted  
@@ -97,7 +98,7 @@ A compact, energy-efficient home NAS built on Raspberry Pi 5, running Pi OS Lite
 ### Syncthing
 - Installed via apt
 
-- To allow LAN access to Web based GUI, updated config file at: ~/.local/state/syncthing/config.xml
+- In order to allow LAN access to browser based GUI, updated config file at: ~/.local/state/syncthing/config.xml
 
 - Added Syncthing Tray via Flatpak on desktop and laptop for sync notifications
 ---
