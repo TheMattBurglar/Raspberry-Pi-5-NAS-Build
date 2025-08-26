@@ -48,7 +48,7 @@ A compact, energy-efficient home NAS built on Raspberry Pi 5, running Pi OS Lite
 - Resolved IPv6 leak by reinstalling PiVPN and reconfiguring clients
 
 ### SSH
-- Set up public-key authentication for laptop as well
+- Desktop public-key authentication was setup by Raspberry Pi Imager, but I needed to manually setup public-key authentication for my laptop as well
 
 ---
 
