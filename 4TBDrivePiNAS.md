@@ -46,8 +46,8 @@ Attempted direct mount with: `sudo mount -t cifs //synology-ip/share-name /mnt/s
 Switched to credentials file method:
 
 I created a credentials file in /tmp/smb-credentials' with the contents:
-`username=your-user  
-password=yourpassword`
+username=your-user  
+password=yourpassword
 
 Then successfully mounted with: `sudo mount -t cifs "//192.168.x.x/share-name" /mnt/synology -o credentials=/tmp/smb-credentials,vers=3.0`
 
