@@ -45,7 +45,7 @@ Attempted direct mount with: `sudo mount -t cifs //synology-ip/share-name /mnt/s
 
 Switched to credentials file method:
 
-I created a credentials file in /tmp/smb-credentials' with the contents:
+I created a credentials file in /tmp/smb-credentials' with the contents:  
 username=your-user  
 password=yourpassword
 
