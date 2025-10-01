@@ -58,7 +58,7 @@ Used: `rsync -avh --progress /mnt/synology/ /srv/media/share/Media4T/`
 
 Transfer speeds: ~100–111 MB/s — Much faster than using my desktop!
 
-Unmounted video folder (`umount /mnt/synology`), then mounted music folder and repeated the rsync process. Continued this process till all contents were moved over.
+Unmounted video folder (`umount /mnt/synology`), then mounted music folder and repeated the rsync process.
 
 ## ✅ Status & Next Steps
 Everything is working smoothly. Now I just need to decide how long to keep the Synology NAS as a fallback before retiring it.
