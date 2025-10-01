@@ -17,8 +17,7 @@ Created a new subdirectory: `mkdir /srv/media/share/Media4T`
 
 Mounted the new drive: `sudo mount /dev/nvme1n1p1 /srv/media/share/Media4T`
 
-Made the mount persistent: `sudo blkid /dev/nvme1n1p1`
-Added to /etc/fstab: `UUID=your-uuid-here /srv/media/share/Media4T ext4 defaults,noatime 0 2`
+Made the mount persistent: Verified UUID with `sudo blkid /dev/nvme1n1p1`, then added to /etc/fstab: `UUID=your-uuid-here /srv/media/share/Media4T ext4 defaults,noatime 0 2`
 
 Rebooted and confirmed with lsblk — 3.6TB mounted successfully at /srv/media/share/Media4T. 🎉
 
