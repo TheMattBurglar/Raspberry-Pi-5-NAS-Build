@@ -27,7 +27,7 @@ Updated ownership: `sudo chown -R user:user /srv/media/share`
 Transferred video folder via Samba through my desktop file manager — worked, but slow and limited to copy-paste.
 
 Used CLI for remaining directories: `mv -v <source> <destination>`
-Much faster, and I strongly recomend using -v for progress visibility.
+Much faster, and I strongly recommend using -v for progress visibility.
 
 ### ✅ Streaming test: success!
 
